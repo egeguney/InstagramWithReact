@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import HomeIMG from './Images/HomeFeed/Home.png';
+import SearchIMG from './Images/HomeFeed/Setting.png';
+import AddPost from './Images/HomeFeed/Tick-Square.png';
+import Likes from './Images/HomeFeed/Heart-plus.png';
+import ProfileIMG from './Images/HomeFeed/Profile.png';
 
 const NavBar = () => {
     return(
@@ -6,23 +11,23 @@ const NavBar = () => {
             <div className="selectors">
                 <div className="home">
                     <Link to={"/"}>
-                        <img className="img" src="Images/HomeFeed/Home.png"/>
+                        <img className="img" src={HomeIMG}/>
                     </Link>
                 </div>
                 <div className="search">
                     <Link to={"/search"}>
-                        <img className="img" src="Images/HomeFeed/Search.png"/>
+                        <img className="img" src={SearchIMG}/>
                     </Link>
                 </div>
                 <div className="add-post">
-                    <img className="img" src="Images/HomeFeed/Tick-Square.png"/>
+                    <img className="img" src={AddPost}/>
                 </div>
                 <div className="likes">
-                    <img className="img likes" src="Images/HomeFeed/Heart-plus.png"/>
+                    <img className="img likes" src={Likes}/>
                 </div>
                 <div className="my-profile">
                     <Link to={"/profile"}>
-                        <img className="profile-img" src="Images/HomeFeed/Profile.png"/>
+                        <img className="profile-img" src={ProfileIMG}/>
                     </Link>
                 </div>
             </div>

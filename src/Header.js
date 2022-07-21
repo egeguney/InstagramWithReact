@@ -1,16 +1,20 @@
+import Settings from './Images/HomeFeed/Setting.png'
+import Logo from './Images/HomeFeed/logo.png'
+import Messages from './Images/HomeFeed/messages.png'
+
 
 const Header = () => {
 
     return(
         <div className="header">
             <div className="settings">
-                <img src="/Images/HomeFeed/Setting.png"/>
+                <img src={Settings}/>
             </div>
             <div className="instagram">
-                <img src="/Images/HomeFeed/logo.png"/>
+                <img src={Logo}/>
             </div>
             <div className="messages">
-                <img src="/Images/HomeFeed/messages.png"/>
+                <img src={Messages}/>
             </div>
         </div>
     );
