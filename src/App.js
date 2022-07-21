@@ -12,15 +12,9 @@ function App() {
           <NavBar />
           <div className="content">
               <Routes>
-                <Route exact path="/">
-                      <Home />
-                </Route>
-                <Route path="/search">
-                     <Search />
-                </Route>
-                <Route path="/profile">
-                    <Profile />
-                </Route>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/search" element={<Search />} />
+                  <Route path="/profile" element={<Profile />} />
               </Routes>
           </div>
         </div>
