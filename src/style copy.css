@@ -1,0 +1,372 @@
+
+body{
+    position:absolute;
+    left:25%;
+    width:414px;
+
+    background: #E5E5E9;
+    outline: 1px dashed black;
+
+    z-index: 100000;
+}
+.header{
+    margin-top:45px;
+    margin-left:35px;
+    width:351px;
+    height:38px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+.settings{
+    width:22px;
+    height:24.59px;
+}
+.instagram{
+    width:108px;
+    height:38px;
+}
+.messages{
+    width: 23px;
+    height: 20.01px;
+}
+
+.stories{
+    margin-top: 24.61px;
+    width:414px;
+    height:78.39px;
+    display:flex;
+    white-space:nowrap;
+    overflow: auto;
+}
+.story1{
+    margin-left: 35px;
+}
+.story-box{
+    box-sizing: border-box;
+    width: 58.79px;
+    height: 58.79px;
+    border: 2px solid #C4C4C4;
+    border-radius: 23px;
+}
+.horizontal{
+    width: 13.41px;
+    height: 0px;
+    border: 3px solid #040303;
+    transform: rotate(-180deg);
+    border-radius:15px;
+
+}
+.story-text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+.my{
+    margin:4.13px auto;
+}
+.other{
+    margin:3.16px auto;
+}
+.box{
+    box-sizing: border-box;
+    width: 59.83px;
+    height: 58.79px;
+    border-radius: 23px;
+    background: rgb(85,0,255);
+    background: linear-gradient(180deg, rgba(85,0,255,1) 0%, rgba(255,90,1,1) 52%, rgba(255,214,0,1) 100%);
+}
+.story2{
+    margin-left: 13.35px;
+}
+.story3{
+    margin-left: 13.44px;
+}
+.story4{
+    margin-left: 14.44px;
+}
+.story5{
+    margin-left: 14.44px;
+}
+.story6{
+    margin-left: 13.41px;
+}
+.story7{
+    margin-left: 13.41px;
+}
+.story8{
+    margin-left: 13.41px;
+}
+.pic{
+    margin: 3px 3px 3px 3px;
+    width: 49.51px;
+    height: 48.48px;
+    border-radius: 18px;
+    border: white 2.16px solid;
+    background: white border-box;
+    object-fit:cover;
+}
+
+.posts{
+    margin-top:27px;
+    margin-left:28px;
+    width:359px;
+    height:1050px;
+    overflow:hidden;
+}
+.post{
+    width:359px;
+    height:461px;
+    background: #FFFFFF;
+    border-radius: 33px;
+}
+.khokha{
+    margin-top:22px;
+}
+.profile-tab{
+    padding-top:12px;
+    margin-left:14px;
+    width: 317px;
+    height: 37px;
+    display:flex;
+}
+.profile-image{
+    width: 36px;
+    height: 37px;
+    border-radius:50%;
+    object-fit:cover;
+}
+.texts{
+    width:119px;
+    margin-left:5px;
+    text-align:left;
+    display:inline-block;
+}
+.name{
+    margin-top:3px;
+    margin-bottom:0px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+.location{
+    margin-top:1px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: left;
+    letter-spacing: -0.3px;
+    color: #878D98;
+}
+.photo{
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 327px;
+    height: 311px;
+    box-shadow: 0px 12px 29px -5px rgba(247, 13, 77, 0.25);
+    border-radius: 17px;
+    object-fit:cover;
+}
+.three-dot{
+    width: 28px;
+    height: 6px;
+    margin-top:0;
+    margin-left:152px;
+    font-size:24px;
+    text-align: end;
+    font-weight: 900;
+    letter-spacing: 1.75px;
+}
+.interaction-box{
+    display:flex;
+    width:304.58px;
+    height:33.55px;
+    margin-left:22px;
+    margin-top:10.45px;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+.like-box{
+    width:73px;
+    height:33px;
+    border-radius: 14px;
+    display:flex;
+}
+.like-box:hover{
+    background: #EAEEF1;
+}
+.like{
+    margin-top:10.47px;
+    margin-left:10.39px;
+    width: 18.23px;
+    height: 15.1px;
+
+}
+.like-count{
+    margin:8px auto;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    width:35px;
+    height:20px;
+}
+.comment-box{
+    margin-left:10px;
+    width:73px;
+    height:33px;
+    border-radius: 14px;
+    display:flex;
+    align-items:center;
+}
+.comment-box:hover{
+    background: #EAEEF1;
+}
+.comment{
+    margin-left:5px;
+    width:19.18px;
+    height:18.62px;
+}
+.comment-count{
+    margin-top:15px;
+    margin-left:5px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: -0.3px;
+    width:35px;
+    height:20px;
+}
+.share-box{
+    border-radius: 8px;
+    margin-top:3.3px;
+    width: 45.13px;
+    height: 25.13px;
+    margin-right:125px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.share-box:hover{
+    background: #EAEEF1;
+}
+.save-box{
+    width: 45.13px;
+    height: 25.13px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:8px;
+}
+.save-box:hover{
+    background: #EAEEF1;
+}
+.bottom-visual{
+    display:flex;
+    align-items:center;
+}
+.interacted-profiles{
+    margin-left:22px;
+    margin-top:9px;
+    width:58px;
+    height:27px;
+}
+.inter-pic{
+    position:absolute;
+    width:27px;
+    height:27px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius:50%;
+    object-fit:cover;
+}
+.first-pic{
+    left:47px;
+    z-index: 3;
+}
+.second-pic{
+    left:62px;
+    z-index: 2;
+}
+.third-pic{
+    left:78px;
+    z-index: 1;
+}
+.interacted-people{
+    margin-top:17px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #040303;
+}
+.more-box{
+    margin-left:45px;
+    width: 53px;
+    height: 24px;
+    background: #EAEEF1;
+    border-radius: 16.5px;
+}
+.more-box:hover{
+    background: #939596;
+}
+.more{
+    margin: 5px auto;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    width: 36px;
+    height: 15px;
+    color: #040303;
+}
+.selector-container{
+    position: fixed;
+    width: 414px;
+    height: 114px;
+    background: #FFFFFF;
+    border-radius: 40px 40px 0px 0px;
+    left:calc(25% - 8);
+    top: 774px;
+    z-index: 100;
+}
+.selectors{
+    height:77px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.likes{
+    width: 37px;
+    height:37px;
+    margin-bottom:7px;
+}
+
