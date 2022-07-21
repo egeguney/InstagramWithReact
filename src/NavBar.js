@@ -10,7 +10,7 @@ const NavBar = () => {
                     </Link>
                 </div>
                 <div className="search">
-                    <Link to={"/Search"}>
+                    <Link to={"/search"}>
                         <img className="img" src="Images/HomeFeed/Search.png"/>
                     </Link>
                 </div>
@@ -21,7 +21,7 @@ const NavBar = () => {
                     <img className="img likes" src="Images/HomeFeed/Heart-plus.png"/>
                 </div>
                 <div className="my-profile">
-                    <Link to={"/Profile"}>
+                    <Link to={"/profile"}>
                         <img className="profile-img" src="Images/HomeFeed/Profile.png"/>
                     </Link>
                 </div>
