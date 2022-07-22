@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HomeIMG from './Images/HomeFeed/Home.png';
-import SearchIMG from './Images/HomeFeed/Setting.png';
+import SearchIMG from './Images/HomeFeed/Search.png';
 import AddPost from './Images/HomeFeed/Tick-Square.png';
 import Likes from './Images/HomeFeed/Heart-plus.png';
 import ProfileIMG from './Images/HomeFeed/Profile.png';
