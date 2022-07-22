@@ -97,7 +97,7 @@
 .picture4{
     width: 183px;
     height: 149px;
-    border-radius: 0px 19px 19px 0px;
+    border-radius: 0 19px 19px 0;
     object-fit:cover;
 }
 div.picture3{

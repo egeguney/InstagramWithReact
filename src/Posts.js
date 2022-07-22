@@ -9,9 +9,23 @@ import Second from './Images/Profiles/2.jpg'
 import Third from './Images/Profiles/3.jpg'
 import Khoka from './Images/Profiles/profile2.jpg'
 import Post2 from './Images/Profiles/post2.jpg'
+import create from 'zustand'
+
+const useStore = create(set => ({
+    count1: 1,
+    inc1: () => set(state => ({ count1: state.count1 + 1 })),
+    count2:2,
+    inc2: () => set(state => ({ count2: state.count2 + 1 })),
+}))
+
+
 
 const Posts = () => {
 
+    const incFor1 = useStore(state => state.inc1);
+    const incFor2 = useStore(state => state.inc2);
+    const countFor1 = useStore(state => state.count1);
+    const countFor2 = useStore(state => state.count2);
     return(
         <div className="posts">
             <div className="post Camilla">
@@ -25,9 +39,9 @@ const Posts = () => {
                 </div>
                 <img className="photo" src={Post1}/>
                 <div className="interaction-box">
-                    <div className="like-box" onClick="">
+                    <div className="like-box" onClick={incFor1}>
                         <img className="like" src={Heart}/>
-                        <p className="like-count">5,4k</p>
+                        <p className="like-count">{509 + countFor1}</p>
                     </div>
                     <div className="comment-box" onClick="">
                         <img className="comment" src={Comment}/>
@@ -64,9 +78,9 @@ const Posts = () => {
                 </div>
                 <img className="photo" src={Post2}/>
                 <div className="interaction-box">
-                    <div className="like-box" onClick="">
+                    <div className="like-box" onClick={incFor2}>
                         <img className="like" src={Heart}/>
-                        <p className="like-count">5,4k</p>
+                        <p className="like-count">{289 + countFor2}</p>
                     </div>
                     <div className="comment-box" onClick="">
                         <img className="comment" src={Comment}/>
