@@ -1,11 +1,13 @@
 
+import Scan from "./Images/Icons/Scan.png";
+import SearchIcon from "./Images/Icons/Search.png";
 
 const SearchHeader = () => {
     return(
         <div className="search_header">
-            <input type="search" className="search-console" placeholder="Search"><img className="scan-search"
-                                                                                      src="Images/Icons/Scan.png"/></input>
-            <div className="search-icon"><img className="search" src="Images/Icons/Search.png"/></div>
+            <input className="search-console" placeholder="Search" onChange={event => event.preventDefault()}/>
+            <div><img className="scan-search" src={Scan}/></div>
+            <div className="search-icon"><img className="search" src={SearchIcon}/></div>
         </div>
     );
 }
