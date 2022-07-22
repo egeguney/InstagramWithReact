@@ -354,7 +354,7 @@ body{
     background: #FFFFFF;
     border-radius: 40px 40px 0px 0px;
     left:calc(25% - 8);
-    top: 774px;
+    bottom: 0px;
     z-index: 100;
 }
 .selectors{
