@@ -1,4 +1,4 @@
-import './style copy.css';
+import './HomeStyle.css';
 import Stories from './Stories';
 import Posts from './Posts';
 import Header from './Header'
