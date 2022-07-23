@@ -1,5 +1,5 @@
 import Camilla from './Images/Profiles/profile.jpg'
-import Post1 from './Images/Profiles/post3.png'
+import Post1 from './Images/Profiles/post1.jpg'
 import Heart from './Images/Icons/heart.png'
 import Comment from './Images/Icons/comment.png'
 import Share from './Images/Icons/share.png'
