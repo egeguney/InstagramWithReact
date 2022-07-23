@@ -14,7 +14,7 @@ const NavBar = () => {
                         <img className="img" src={HomeIMG}/>
                     </Link>
                 </div>
-                <div className="search">
+                <div className="searchIMG">
                     <Link to={"/search"}>
                         <img className="img" src={SearchIMG}/>
                     </Link>
